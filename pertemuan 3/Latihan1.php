@@ -22,9 +22,8 @@ for($i = 0; $i < 5; $i++){
 // $i++;
 //}while($i < 5);
 
-si = 3;
+$i = 3;
 do {
-
-}
-
-?>
+    echo "Gilang Ramdhani <br>";
+    $i++;
+}while($i < 5 );
