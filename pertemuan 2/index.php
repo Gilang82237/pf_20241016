@@ -19,7 +19,7 @@ echo $nama_depan . " " . $nama_belakang
 
 //assigment
 //=,+=,-=,/=,%=,.=
-$x = 1;
+= 1;
 $x /= 5;
 echo $x;
 $nama .= $nama_depan;

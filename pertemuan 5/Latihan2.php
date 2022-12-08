@@ -22,11 +22,20 @@ $numbers=[2,3,43,25,67,8,12,13,14,77]
          margin: 3px;
          float: left;
         }
-
+        .clear {
+            clear: both;
+        }
         </style>
 </head>
 <body>
-    <div class="kotak">2
-        </div
+    <?php for( $i = 0; $i < count($angka); $i++) : ?>
+     <div class="kotak"><?= $angka[$i] ?></div>
+     <?php endfor; ?>
+
+     <div class="clear"></div>
+
+     <?php foreach( $number as $number ) : ?>
+        <div class="kotak"><?= $number; ?></div>
+     <?php endforeach; ?>
 </body>
 </html>
